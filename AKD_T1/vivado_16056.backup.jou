@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 29 12:09:25 2025
+# Process ID: 16056
+# Current directory: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T1/AKD_T1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15876 C:\Users\hp\Desktop\FPGA\CPU\AKD_T\AKD_T1\AKD_T1\AKD_T1.xpr
+# Log file: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T1/AKD_T1/vivado.log
+# Journal file: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T1/AKD_T1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T1/AKD_T1/AKD_T1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_AKD_T1.tcl
+close_sim
+launch_simulation
+source test_AKD_T1.tcl
+close_sim
