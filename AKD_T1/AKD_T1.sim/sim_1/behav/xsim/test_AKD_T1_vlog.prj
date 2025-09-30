@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AKD_T1.gen/sources_1/ip/MEM_2/sim/MEM.v" \
+"../../../../AKD_T1.gen/sources_1/ip/IM_entire/sim/IM_entire.v" \
+"../../../../AKD_T1.srcs/sources_1/new/AKD_T1.v" \
+"../../../../AKD_T1.srcs/sources_1/new/ALU.v" \
+"../../../../AKD_T1.srcs/sources_1/new/Hazard_Checker.v" \
+"../../../../AKD_T1.srcs/sources_1/new/PC.v" \
+"../../../../AKD_T1.srcs/sources_1/new/Pipeline.v" \
+"../../../../AKD_T1.srcs/sources_1/new/REG.v" \
+"../../../../AKD_T1.srcs/sim_1/new/test_AKD_T1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

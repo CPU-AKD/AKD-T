@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AKD_T1.gen/sources_1/ip/MEM_2/sim/MEM.v" \
+"../../../../AKD_T1.srcs/sim_1/new/test_MEM.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
