@@ -1,0 +1,7 @@
+Running: xsim.dir/test_AKD_T2_behav/xsimk.exe -simmode gui -wdb test_AKD_T2_behav.wdb -simrunnum 0 -socket 51067
+Design successfully loaded
+Design Loading Memory Usage: 10676 KB (Peak: 10676 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 11912 KB (Peak: 11912 KB)
+Simulation CPU Usage: 171 ms

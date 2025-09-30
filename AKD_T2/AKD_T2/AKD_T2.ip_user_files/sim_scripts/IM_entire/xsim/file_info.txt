@@ -1,0 +1,2 @@
+IM_entire.v,verilog,xil_defaultlib,../../../../AKD_T2.gen/sources_1/ip/IM_entire/sim/IM_entire.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

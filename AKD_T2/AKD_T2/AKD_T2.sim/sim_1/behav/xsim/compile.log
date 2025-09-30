@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.gen/sources_1/ip/MEM/sim/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.gen/sources_1/ip/IM_entire/sim/IM_entire.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM_entire
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/AKD_T2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AKD_T2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_common_single
+INFO: [VRFC 10-2458] undeclared symbol aconv, assumed default net type wire [C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v:8]
+INFO: [VRFC 10-2458] undeclared symbol bconv, assumed default net type wire [C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v:8]
+INFO: [VRFC 10-2458] undeclared symbol a_after, assumed default net type wire [C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v:9]
+INFO: [VRFC 10-2458] undeclared symbol b_after, assumed default net type wire [C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift_single.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_shift_single
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Hazard_Checker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Checker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/test_AKD_T2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_AKD_T2

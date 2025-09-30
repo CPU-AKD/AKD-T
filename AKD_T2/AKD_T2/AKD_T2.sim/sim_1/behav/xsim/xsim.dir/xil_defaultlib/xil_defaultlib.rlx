@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.gen/sources_1/ip/IM_entire/sim/IM_entire.v,1759073621,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/AKD_T2.v,,IM_entire,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.gen/sources_1/ip/MEM/sim/MEM.v,1758425281,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.gen/sources_1/ip/IM_entire/sim/IM_entire.v,,MEM,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/AKD_T2.v,1759130551,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU.v,,AKD_T2,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU.v,1758851601,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common.v,,ALU,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common.v,1758429252,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v,,ALU_common,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_common_single.v,1758426058,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift.v,,ALU_common_single,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift.v,1758851601,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift_single.v,,ALU_shift,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/ALU_shift_single.v,1758851601,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Hazard_Checker.v,,ALU_shift_single,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Hazard_Checker.v,1759042549,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/PC.v,,Hazard_Checker,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/PC.v,1759073633,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Pipeline.v,,PC,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/Pipeline.v,1758425096,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/REG.v,,Pipeline,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/REG.v,1758424839,verilog,,C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/test_AKD_T2.v,,REG,,,,,,,,
+C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/test_AKD_T2.v,1758425354,verilog,,,,test_AKD_T2,,,,,,,,

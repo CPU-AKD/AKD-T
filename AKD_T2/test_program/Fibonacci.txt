@@ -1,0 +1,57 @@
+0 1 2 3 4 5 6
+0 1 1 2 3 5 8
+x[1]:F(n-1)
+x[2]:F(n)
+x[3]:跳转地址
+x[4]:初始内容为4则表示计算F(4)，后续代表剩余迭代次数
+x[5]:每迭代一次，剩余迭代次数要减一，所以找个地方(x[6])放置立即数1
+  0: 01000000_00000000_00000000_10000100 // ldi   4,     r[4]
+  1: 01000000_00000000_00000000_00100101 // ldi   1,     r[5]
+  2: 00100111_00000000_00010000_10100100 // sub x[4], r[5], r[4]
+  3: 01000000_00000000_00000000_00000001 // ldi   0,     r[1]
+  4: 01000000_00000000_00000000_00100010 // ldi   1,     r[2]
+  5: 01000000_00000000_00000000_11000011 // ldi   6,     r[3]
+  6: 00100111_00000000_00010000_10100100 // sub x[4], r[5], r[4]
+  7: 00100011_00000000_00000100_01000010 // add x[1], r[2], r[2]
+  8: 00100111_00000000_00001000_00100001 // sub x[2], r[1], r[1]
+  9: 10000010_00000000_00010000_01100000 // jg    x[4], r[3], r[0]
+10: 00010000_00000000_00001000_00000000 // st    x[2], M[0]
+11: 00001000_00000000_00000000_00000000 // hlt
+//预期:F(4) = 3
+(ns)		IF(hide)	ID		EX		MEM	WB		//r[1]/r[2]/r[4]
+0:		ldi->4	nop		nop		nop		nop
+1:		ldi->5	ldi->4	nop		nop		nop
+2:		sub 454	ldi->5	ldi->4	nop		nop
+3:		ldi->1	sub 454	ldi->5	ldi->4	nop
+4:		ldi->2	ldi->1	sub 454	ldi->5	ldi->4
+5:		ldi->3	ldi->2	ldi->1	sub 454	ldi->5	//004
+6:		sub 454	ldi->3	ldi->2	ldi->1	sub 454
+7:		sub 454	ldi->3	nop		ldi->2	ldi->1	//003
+8:		add 122	sub 454	ldi->3	nop		ldi->2	//003
+9:		sub 211	add 122	sub 454	ldi->3	nop		//013
+10:		jg		sub 211	add 122	sub 454	ldi->3
+11:		jg		sub 211	nop		add 122	sub 454
+12:		jg		sub 211	nop		nop		add 122	//012
+13:		jg		sub 211	nop		nop		nop		//012
+14:		st		jg		sub 211	nop		nop
+15:		sub 454	st		jg		sub 211	nop
+16:		add 122	sub 454	nop		jg		sub 211
+17:		sub 211	add 122	sub 454	nop		jg		//112
+18:		jg		sub 211	add 122	sub 454	nop
+19:		jg		sub 211	nop		add 122	sub 454
+20:		jg		sub 211	nop		nop		add 122	//111
+21:		jg		sub 211	nop		nop		nop		//121
+22:		st		jg		sub 211	nop		nop
+23:		sub 454	st		jg		sub 211	nop
+24:		add 122	sub 454	nop		jg		sub 211
+25:		sub 211	add 122	sub 454	nop		jg		//121
+26:		jg		sub 211	add 122	sub 454	nop
+27:		jg		sub 211	nop		add 122	sub 454
+28:		jg		sub 211	nop		nop		add 122	//120
+29:		jg		sub 211	nop		nop		nop		//130
+30:		st		jg		sub 211	nop		nop
+31:		hlt		st		jg		sub 211	nop
+32:		nop		hlt		st		jg		sub 211
+33:		nop		nop		hlt		st		jg		//230
+34:		nop		nop		nop		hlt		st
+35:		nop		nop		nop		nop		hlt

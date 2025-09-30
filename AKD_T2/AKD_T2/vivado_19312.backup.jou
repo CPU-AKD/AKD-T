@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 28 22:23:54 2025
+# Process ID: 19312
+# Current directory: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9608 C:\Users\hp\Desktop\FPGA\CPU\AKD_T\AKD_T2\AKD_T2\AKD_T2.xpr
+# Log file: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/vivado.log
+# Journal file: C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.xpr
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/new/test_AKD_T2.v]
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Coe_File {C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T1/test_program/Fibonacci.coe}] [get_ips IM_entire]
+generate_target all [get_files  C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/ip/IM_entire/IM_entire.xci]
+catch { config_ip_cache -export [get_ips -all IM_entire] }
+export_ip_user_files -of_objects [get_files C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/ip/IM_entire/IM_entire.xci] -no_script -sync -force -quiet
+reset_run IM_entire_synth_1
+launch_runs IM_entire_synth_1 -jobs 8
+wait_on_run IM_entire_synth_1
+export_simulation -of_objects [get_files C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.srcs/sources_1/ip/IM_entire/IM_entire.xci] -directory C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.ip_user_files -ipstatic_source_dir C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.cache/compile_simlib/modelsim} {questa=C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.cache/compile_simlib/questa} {riviera=C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.cache/compile_simlib/riviera} {activehdl=C:/Users/hp/Desktop/FPGA/CPU/AKD_T/AKD_T2/AKD_T2/AKD_T2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source test_AKD_T2.tcl
+close_sim
